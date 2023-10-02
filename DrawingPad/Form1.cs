@@ -105,6 +105,7 @@ namespace DrawingPad
 
         private void penSize_MouseDown(object sender, MouseEventArgs e)
         {
+            //ended here
             TrackBar penScroll = (TrackBar)sender;
             penBrushSize = penScroll.Value;
             Console.WriteLine(penBrushSize);
